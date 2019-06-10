@@ -4,8 +4,9 @@
 
 *Link*: https://gemslab.github.io/papers/yan-2019-groupinn.pdf
 
-![alt text](https://raw.githubusercontent.com/GemsLab/GroupINN/master/overview-github.png)
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/GemsLab/GroupINN/master/overview-github.png" width="550"  alt="GroupINN Architecture">
+</p>
 
 **Code**: The code will be uploaded here soon.
 
