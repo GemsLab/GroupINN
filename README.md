@@ -4,7 +4,7 @@
 
 *Link*: https://gemslab.github.io/papers/yan-2019-groupinn.pdf
 
-![alt text](https://raw.githubusercontent.com/GemsLab/GroupINN/master/overview.jpg)
+![alt text](https://raw.githubusercontent.com/GemsLab/GroupINN/master/overview-github.png)
 
 
 **Code**: The code will be uploaded here soon.
