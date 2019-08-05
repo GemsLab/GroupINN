@@ -32,9 +32,10 @@
 
 # Data Acquisition
 
-Due to confidentiality reasons, we are not allowed to publish the Human Connectome data here. However, the Human Connectome data has open access; you can apply to access it through the link.
-We are using the Human Connectome Project 1200 release; our collaborators in neuroscience help process the data. The methods to process the data is described in their paper.
+Due to confidentiality reasons, we are not allowed to publish the Human Connectome data here. However, the Human Connectome data has open access; you can apply to access it through the [link](https://db.humanconnectome.org/app/template/Login.vm).
+We are using the Human Connectome Project 1200 release; our collaborators in neuroscience help process the data. The methods to process the data is described in their [paper](https://www.biorxiv.org/content/10.1101/412056v1).
 The input to our model is time series; data should be in `.mat` files. Subjects’ data is saved in separate mat files and each subject have multiple mat flies for measurements at different time. The matrix in the mat file has the shape `num_timestamps × num_rois`. Our code will take care of the graph generation. If you already have graph data at hand, you need to modify `foundations/data_manager.py`.
+The names of brain regions can be found [here](https://www.jonathanpower.net/2011-neuron-bigbrain.html)
 
 # File Overview
 - `train_model.py`: main script to train the model and obtain interpretable results on the best checkpoint obtained through training. 
